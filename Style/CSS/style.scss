@@ -1,0 +1,54 @@
+.pageBase {
+    background-image: url(../Common/img/pexels-pixabay-53594.jpg);
+
+    &-menu {
+        padding: 10px 10px 8px;
+        display: flex;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.5);
+
+        &__logo {
+            margin-right: auto;
+            padding: 0.5% 4%;
+        }
+
+        &__item {
+            padding: 1% 4%;
+            a {
+                text-align: center;
+            }
+        }
+
+    }
+    &-contents {
+        &__area {
+            display: block;
+            margin: 30px;
+            height: 400px;
+            background: #fff;
+        }
+
+        &__textarea {
+            padding: 30px;
+        }
+
+        &__title {
+            margin-bottom: 20px;
+            border-bottom: medium solid #9BE1FF;
+            font-size: 24px;
+        }
+
+        &__text {
+            line-height: 1.8;
+        }
+    }
+
+    &-footer {
+        display: flex;
+        margin-right: auto;
+        padding: 0 30px;
+        text-align: right;
+        font-size: xx-small;
+        color: #fff;
+    }
+}
