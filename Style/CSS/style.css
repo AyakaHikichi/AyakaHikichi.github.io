@@ -27,7 +27,6 @@
 .pageBase-contents__area {
   display: block;
   margin: 30px;
-  height: 400px;
   background: #fff;
 }
 
@@ -41,7 +40,17 @@
   font-size: 24px;
 }
 
+.pageBase-contents__subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
 .pageBase-contents__text {
+  padding: 10px 0;
+}
+
+.pageBase-contents__text ul, .pageBase-contents li {
   line-height: 1.8;
 }
 
@@ -49,8 +58,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: auto;
-  padding: 0 30px;
+  padding: 0 30px 30px;
   text-align: right;
   font-size: xx-small;
   color: #fff;
